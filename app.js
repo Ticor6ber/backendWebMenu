@@ -129,5 +129,5 @@ app.get('/api/orders/:id', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server app running at: http://localhost:${port}`);
+  console.log(`Server app running without problems`);
 });
